@@ -1,0 +1,13 @@
+.bg-svg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    /* Mobile background */
+    background-image: url('./images/pattern-background-mobile.svg');
+
+    /* Desktop background */
+    @media (min-width: 768px) {
+        background-image: url('./images/pattern-background-desktop.svg');
+    }
+}

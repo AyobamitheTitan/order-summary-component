@@ -1,0 +1,9 @@
+.card{
+    width: 80%;
+
+    /* Desktop */
+    @media (min-width: 658px) {
+        width: 25rem;
+    }
+    
+}

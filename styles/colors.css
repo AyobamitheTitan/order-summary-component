@@ -1,0 +1,63 @@
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --hover-blue: #5D56C1;
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+.text-pale-blue {
+    color: var(--pale-blue);
+}
+
+.bg-pale-blue {
+    background-color: var(--pale-blue);
+}
+
+.text-bright-blue {
+    color: var(--bright-blue);
+}
+
+.bg-bright-blue {
+    background-color: var(--bright-blue);
+}
+
+.text-very-pale-blue {
+    color: var(--very-pale-blue);
+}
+
+.bg-very-pale-blue {
+    background-color: var(--very-pale-blue);
+}
+
+.text-desaturated-blue {
+    color: var(--desaturated-blue);
+}
+
+.bg-desaturated-blue {
+    background-color: var(--desaturated-blue);
+}
+
+.text-dark-blue {
+    color: var(--dark-blue);
+}
+
+.bg-dark-blue {
+    background-color: var(--dark-blue);
+}
+
+
+.btn-shadow {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 3px 13px 0px #aba8a8;
+}
+
+
+button:hover{
+    background-color: var(--hover-blue);
+}
+
+.change:hover{
+    color: var(--hover-blue);
+}
