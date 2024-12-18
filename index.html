@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/fonts.css">
+  <link rel="stylesheet" href="./styles/colors.css">
+  <link rel="stylesheet" href="./styles/bg.css">
+  <link rel="stylesheet" href="./styles/widths.css">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="bg-no-repeat bg-center h-screen bg-fixed bg-svg bg-pale-blue">
+  <div class="flex items-center justify-center h-screen">
+    <div class="flex flex-col items-center justify-center card text-red-hat-display">
+      <img src="./images/illustration-hero.svg" class="rounded-t-2xl w-full" alt="illustration-hero">
+
+      <div class="bg-white items-center justify-center w-full text-center rounded-b-2xl p-4 shadow-2xl">
+        <h1 class="text-xl font-bold">
+          Order Summary
+        </h1>
+
+        <div class="font-sm text-gray-700 sm:px-6 px-1 sm:py-3 py-4">
+          You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </div>
+
+        <div class="flex bg-very-pale-blue items-center justify-between w-full sm:p-3 p-2 rounded-2xl">
+          <div class="flex items-center ">
+            <img class="p-2 w-4/12 sm:w-auto" src="./images/icon-music.svg" alt="icon-music">
+            <div class="font-light text-gray-600 sm:text-base text-xs">
+              <div class="font-extrabold text-xs sm:text-sm sm:text-base text-black">
+                Annual Plan
+              </div>
+              $59.99/year
+            </div>
+          </div>
+          <a class="underline cursor-default text-purple-800 font-bold change sm:text-base text-xs">
+            Change
+          </a>
+        </div>
+
+
+
+        <button class="flex flex-col my-3 items-center rounded-lg text-white rounded-3 bg-bright-blue py-2 px-4 w-full btn-shadow">
+          Proceed to Payment
+        </button>
+
+        <div class="text-dark-blue cursor-default font-bold text-sm m-6 hover:text-2xl pointer hover:text-purple-900">
+          Cancel Order
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Oluwatimilehin Oyewo</a>.
+  </div>
+</body>
+
+</html>
